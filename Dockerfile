@@ -1,2 +1,2 @@
 FROM elasticsearch:6.6.1
-RUN bin/elasticsearch-plugin --silent install ingest-attachment
+RUN echo "Y" | bin/elasticsearch-plugin --silent install ingest-attachment
